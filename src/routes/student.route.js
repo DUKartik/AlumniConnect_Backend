@@ -21,7 +21,7 @@ import { upload } from "../middlewares/multer.middleware.js"
 
 const router = Router();
 
-router.route("/registerStudent").post(registerStudent);
+router.route("/registerStudent").post(upload.single("avatar"),registerStudent);
 router.route("/completeStudentProfile").post(verifyJWT,authorizeRoles("Student"),upload.single("avatar"),completeStudentProfile);
 router.route("/updateProfile").patch(verifyJWT,authorizeRoles("Student","Admin"),upload.single("avatar"),updateStudentProfile);
 
