@@ -18,7 +18,7 @@
 <h2>🚀 Overview</h2>
 
 <p>
-Alumni Connect OS is a full-stack alumni and student engagement platform designed to strengthen networking, mentorship, communication, and professional growth within educational institutions.
+Alumni Connect is a full-stack alumni and student engagement platform designed to strengthen networking, mentorship, communication, and professional growth within educational institutions.
 </p>
 
 <p>
